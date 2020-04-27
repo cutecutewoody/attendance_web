@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">      
+  <title>Manage Portal- Add participant</title>
+  </head>
+
+
+
+  <body>
+      <nav class="navbar navbar-light bg-light">
+          <span id ="labelForSection" class="navbar-brand mb-0 h1 text-info">Manage portal - Add participant</span>
+          <button id= "btn_back_to_main" class="btn btn-info pull-left" type="button" >Back to main page</button>
+      </nav>
+      <br>
+      <br>
+      <div class="container">
+          <br>  
+          <div class="card text-white bg-info" >
+                  <div class="card-body" id="sayhi"></div>
+          </div>     
+          <br>
+            <div class="form-group">
+               <label for="textarea_participant"  class="font-italic text-info">
+                 Please use <b class="text-danger">; </b>to seperate participant and
+                 <br>
+                 Only <b class="text-danger">number</b> can be input
+               </label>
+              <textarea id="textarea_participant" class="form-control border-info"  rows="3"></textarea>
+               </div>
+                <input id="btn_submit_participant" type="submit" class="btn btn-info" value="Submit"></input>
+                         
+     </div>
+     <nav class="navbar fixed-bottom navbar-light bg-light">
+            <a class="navbar-brand" href="#"></a>
+     </nav>
+
+
+
+
+    <!-- Optional JavaScript -->
+    
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="../js/manage_addParticipant.js"></script>
+
+    
+    <script>  
+      initiatePage();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang = en>
+<head>
+    <meta charset="UFT-8"/>
+
+    <title>  QR Generator</title>
+    <link rel="stylesheet" href="../css/style.css"/>
+    
+
+</head>
+<body>
+        <div class="container">
+            <div class="qrbox">
+                <img id="myimg" src="https://github.com/hirokbanik/qrcode/blob/master/default.png?raw=true"  alt="qr-code"></img>                
+            </div>
+
+            <div id= "countdown" class="hit-the-floor">10</div>
+         </div>
+        <button id= "btn_stop" type="button" class="btn">Stop</button>
+        <button id= "btn_back" type="button" class="btn">Back</button>
+</body>
+
+ <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+ <script src="../js/genQR.js"></script>
+
+<script>
+    initiatePage();
+</script>
+
+</html>
